@@ -6,6 +6,15 @@ webhook_url:
 sections:
 - type: directory
   path: ''
+  label: Datos Personales
+  create: all
+  match: "**/*"
+- type: document
+  path: historia
+  label: Historia
+  match: "**/*"
+- type: directory
+  path: ''
   label: Ciberseguridad
   create: all
   match: "**/*"
