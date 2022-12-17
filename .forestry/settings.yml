@@ -5,24 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: datospersonales
   label: Datos Personales
   create: all
   match: "**/*"
 - type: document
   path: historia
   label: Historia
-  match: "**/*"
-- type: directory
-  path: ''
-  label: Ciberseguridad
-  create: all
-  match: "**/*"
-- type: directory
-  path: ''
-  label: PETs
-  create: all
-  match: "**/*"
 - type: directory
   path: ''
   label: Blog
